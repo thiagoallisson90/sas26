@@ -174,7 +174,7 @@ def test_adr():
 
 def test_caadr():
   sfa = 'none'
-  scenarios = [200]
+  scenarios = [200, 400, 600, 800, 1000]
   radius = 7000
   coords_dir = '/home/thiago/Doutorado/SAS26/sas26'
 
@@ -206,7 +206,7 @@ def test_caadr():
 
 def test_mbadr():
   sfa = 'none'
-  scenarios = [200]
+  scenarios = [200, 400, 600, 800, 1000]
   radius = 7000
   coords_dir = '/home/thiago/Doutorado/SAS26/sas26'
 
@@ -238,7 +238,7 @@ def test_mbadr():
 
 def test_drsfa():
   sfa = 'drsfa'
-  scenarios = [400]
+  scenarios = [200, 400, 600, 800, 1000]
   radius = 7000
   coords_dir = '/home/thiago/Doutorado/SAS26/sas26'
 
@@ -270,7 +270,7 @@ def test_drsfa():
 
 def test_drsftpa():
   sfa = 'drsftpa'
-  scenarios = [200]
+  scenarios = [200, 400, 600, 800, 1000]
   radius = 7000
   coords_dir = '/home/thiago/Doutorado/SAS26/sas26'
 
