@@ -12,7 +12,7 @@
  * network.
  */
 
-/* IEEE SAS 2026 <https://sensorapps.org/2026>
+/* SBRC 2026 <https://sbrc.sbc.org.br/2026/>
  * Apps: [IMR, PCC]
  * IMR: 5 pkts/h
  * PCC: 1 pkt/h

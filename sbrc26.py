@@ -8,7 +8,7 @@ from datetime import datetime
 result_path = '/home/thiago/Doutorado/SAS26/results'
 ns3_path = '/home/thiago/ns-3-allinone/ns-3.43'
 ns3_cmd = f'{ns3_path}/./ns3'
-script = 'scratch/sas26/sas26.cc'
+script = 'scratch/sbrc26/sbrc26.cc'
 
 def run_simulation(ns3_cmd, script, params01, params02, params3, j):
     timestamp_start = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
